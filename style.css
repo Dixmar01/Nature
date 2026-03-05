@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+html {
+    font-size: 10px;
+}
+
+* {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero_section {
+    max-width: 1440px;
+}
+
+.header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_logo {
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_navigation {
+    width: 395px;
+    padding-left: 65px;
+    display: flex;
+    justify-content:space-between;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #3E3E3E;
+    font-size: 20px; 
+}    
+
+a:hover {
+    font-weight: 700;
+}
+
+.logo_whh {
+    margin: 0 60px;
+}
+
+.logo_whh img{
+    max-width: 50px;
+    padding: 5px;
+}
+
+.help_btn_wrapper {
+    margin: 0 60px;
+}
+
+.help_btn {
+    border-radius: 50px;
+    text-align: center;
+    width: 216px;
+    height: 41px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: white;
+}
+
+.help_btn a {
+    display: block;
+}
+
+.meerkat_banner {
+    background-image: url(images/Сурикаты.png);
+    width: 1320px;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    margin: 0 60px;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+    font-weight: 600;
+    margin: 0 40px;
+}
+
+.meerkat_banner p {
+    display: block;
+    font-size: 20px;
+    font-weight: 275;
+    color: white;
+    max-width: 378px;
+    justify-content: end;
+    left: 500px;
+    bottom: 50px;
+    position: relative;
+}
+
+.about_us {
+    max-width: 1440px;
+    height: 1000px;
+}
+
+.lion {
+    background-image: url(images/Лев.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    width: 400px;
+    height: 400px;
+    padding-left: 60px;
+}
+
+.about_us_wrapper {
+    display: flex;
+    padding-top: 100px;
+}
+
+.our_mission {
+    max-width: 800px;
+    margin: 0 60px;
+}
+
+.first {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.second {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 55px;
+}
+
+#orange_btn {
+    margin-top: 20px;
+    background-color: #BC5E28;
+    width: 751px;
+    height: 66px;
+    border-radius: 50px;
+    
+}
+
+#orange_btn a {
+    display: block;
+    color: #171717;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 3000;
+}
