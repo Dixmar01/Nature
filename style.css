@@ -156,7 +156,7 @@ h1 {
     color: #171717;
     font-size: 30px;
     text-align: center;
-    font-weight: 3000;
+    font-weight: 300;
 }
 
 .achievements_wrapper {
@@ -180,3 +180,94 @@ h1 {
     font-size: 30px;
     font-weight: 300;
 }
+
+.question {
+    max-width: 1440px;
+    height: 1000px;
+}
+
+.photo_question {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo {
+    margin: 0 60px;
+    padding-top: 10px;
+}
+
+.giraffe {
+    background-image: url(images/Жираф.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    background-position: center;
+    width: 240px;
+    height: 240px;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+.dolphin {
+    background-image: url(images/Дельфины.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    background-position: center;
+    width: 317px;
+    height: 317px;
+    padding-left: 60px;
+}
+
+.question_block {
+    max-width: 705px;
+}
+
+.question_block h2 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    color: #3E3E3E;
+}
+
+.question_block p {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 30px;
+    width: 526px;
+    height: 48px;
+}
+
+.accordion {
+    max-width: 850px;
+    margin: 80px auto;
+    border-top: 1px solid black;
+    padding-top: 0px;
+}
+
+.accordion-item {
+    border-bottom: 1px solid black;
+    padding: 15px 0;
+}
+
+.accordion-text {
+    font-size: 24px;
+    width: 100%;
+    text-align: left;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.accordion-text::after {
+    content: "→";
+    text-align: right;
+}
+
+
+
+
+
+
+
